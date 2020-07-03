@@ -5,14 +5,136 @@
     box-sizing: border-box;
   }
 
-
 body {
     background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#interface {
+    width: 80vw;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
 }
 
 p {
     text-align: justify;
     text-indent: 40px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    right: 200px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: silver;
+    padding: 10px;
+    margin: 2px;
+
+    /* GARANTIR A COMPATIBILIDADE DO TRANSITION NO MÁXIMO DE NAVEGADORES */
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 79vw;
+    top: 115px;
+}
+
+header#cabecalho {
+    border-bottom: 1px solid #606060;
+    height: 190px;
+    background: url("/_img/logo.png") no-repeat 0px 100px;
+}
+
+header#cabecalho h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+section#corpo {
+    display: block;
+    width: 47vw;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+table#tabela {
+    border: 5px outset #888888;
+    border-radius: 12px;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table#tabela td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+
+aside#lateral {
+    display: block;
+    width: 30vw;
+    float: right;
+}
+
+footer#rodape {
+    /* FAZ COM QUE O CONTEÚDO SEJA EXIBIDO FORA DA DIVISÃO FEITA ACIMA (FLOAT LEFT E RIGHT) */
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+footer#rodape a {
+    text-decoration: none;
 }
 
 /* FORMATAÇÃO DE IMAGENS COM LEGENDA */
