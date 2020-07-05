@@ -84,7 +84,7 @@ header#cabecalho img#icone {
 header#cabecalho {
     border-bottom: 1px solid #606060;
     height: 190px;
-    background: url("../_img/logo.png") no-repeat 0px 100px;
+    background: url("../img/logo.png") no-repeat 0px 100px;
 }
 
 header#cabecalho h1 {
