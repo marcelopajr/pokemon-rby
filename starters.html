@@ -1,29 +1,67 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Red, Blue e Yellow</title>
+    <link rel="shortcut icon" href="img/pokeball.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body>
+    <div id="interface">
 
-Glass > Fotos
-Galeria de Imagens do Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Pokémon Red, Blue e Yellow</h1>
+                <h2>Relançamento marcou a comemoração aos 20 anos da franquia</h2>
+            </hgroup>
 
-Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.
+            <img id="icone" src="img/pokeball.png" alt="Imagem da pokebola">
 
-- Agenda e lembretes
-- Sergey Brin usando o Glass
-- Leve e compacto
-- Sensação de uma tela de 50"
-- Vários tipos de lente
-- Informações importantes
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('img/pokeball.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                            href="/index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('img/region.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                            href="/region.html">Região</a></li>
+                    <li onmouseover="mudaFoto('img/starters.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                            href="/starters.html">Iniciais</a></li>
+                    <li onmouseover="mudaFoto('img/bundles.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                            href="/bundles.html">Bundles</a></li>
+                    <li onmouseover="mudaFoto('img/order.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                            href="/order.html">Pedidos</a></li>
+                </ul>
+            </nav>
+        </header>
 
-Copyright 2013 - by Gustavo Guanabara
+        Glass > Fotos
+        Galeria de Imagens do Google Glass
+        por Gustavo Guanabara
+        Atualizado em 01/Maio/2013
 
-Facebook | Twitter
+        Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google
+        Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das
+        fotos para ver uma versão ampliada e com uma breve descrição.
+
+        - Agenda e lembretes
+        - Sergey Brin usando o Glass
+        - Leve e compacto
+        - Sensação de uma tela de 50"
+        - Vários tipos de lente
+        - Informações importantes
+
+        <footer id="rodape">
+            <p>Desenvolvido pelo fã - Marcelo Pereira <br>
+                <a href="https://github.com/marcelopajr" target="_blank">GitHub</a> | <a
+                    href="https://www.linkedin.com/in/marcelopajr/" target="_blank">LinkedIn</a></p>
+        </footer>
+    </div>
+</body>
+
+<script src="script/index.js"></script>
+
+</html>
