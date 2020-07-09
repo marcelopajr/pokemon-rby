@@ -1,0 +1,97 @@
+ul#iniciais {
+    width: 61%;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+@media (min-height: 1000px) {
+    ul#iniciais {
+    width: 51%;
+    }
+}
+
+ul#iniciais li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4)
+}
+
+ul#iniciais li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 340px;
+    padding: 5px;
+}
+
+ul#iniciais li:hover {
+    transform: scale(1.5);
+    transition: all 0.2s ease-in;
+}
+
+ul#iniciais li:hover span {
+    opacity: 1;
+}
+
+ul#iniciais li#foto01 {
+    background: url('../img/bulbasaur.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 150px;
+    background-color: #ffffff;
+}
+
+ul#iniciais li#foto01:hover {
+    background-size: 170px 170px;
+}
+
+ul#iniciais li#foto02 {
+    background: url('../img/charmander.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 150px;
+    background-color: #ffffff;
+}
+
+ul#iniciais li#foto02:hover {
+    background-size: 170px 170px;
+}
+
+ul#iniciais li#foto03 {
+    background: url('../img/squirtle.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 150px;
+    background-color: #ffffff;
+}
+
+ul#iniciais li#foto03:hover {
+    background-size: 170px 170px;
+}
+
+ul#iniciais li#foto04 {
+    background: url('../img/pikachu.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 150px;
+    background-color: #ffffff;
+}
+
+ul#iniciais li#foto04:hover {
+    background-size: 170px 170px;
+}
+
+ul#iniciais li#foto05 {
+    background: url('../img/eevee.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 150px;
+    background-color: #ffffff;
+}
+
+ul#iniciais li#foto05:hover {
+    background-size: 170px 170px;
+}
