@@ -1,0 +1,41 @@
+section#conteudo {
+    width: 74vw;
+    margin: auto;
+}
+
+img#kanto {
+    width: 764px;
+}
+
+iframe#frame-kanto {
+    width: 26vw;
+    height: 63vh;
+    border: none;
+    overflow: hidden;
+}
+
+article p {
+    margin-left: 7px;
+}
+
+@media (min-height: 1000px) {
+    section#conteudo {
+        width: 64vw;
+        margin: auto;
+    }
+
+    iframe#frame-kanto {
+        width: 22vw;
+        height: 46vh;
+        border: none;
+        overflow: hidden;
+    }
+
+    article p {
+        margin-left: 107px;
+    }
+}
+
+iframe#frame-kanto::-webkit-scrollbar {
+    display: none;
+}

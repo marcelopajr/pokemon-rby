@@ -7,6 +7,7 @@
     <title>Pokémon Red, Blue e Yellow</title>
     <link rel="shortcut icon" href="img/pokeball.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/region.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
@@ -38,15 +39,41 @@
             </nav>
         </header>
 
-        Glass > Especificações
-        Raio-X no Google Glass
-        por Gustavo Guanabara
-        Atualizado em 01/Maio/2013
+        <section id="corpo-full">
 
-        Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
-        Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Jogos > Nintendo</h3>
+                        <h1>Saiba tudo sobre Pokémon Red, Blue e Yellow</h1>
+                        <h1>Explore a região de Kanto!</h1>
+                    </hgroup>
+                </header>
 
-        [AQUI ENTRA UMA IMAGEM]
+                <p>
+                    Clique em qualquer área destacada em vermelho no mapa para ter mais informações sobre a localização.
+                </p>
+
+                <section id="conteudo">
+                    <img src="img/kanto.png" id="kanto" alt="Mapa de Kanto" usemap="#meumapa">
+                    <map name="meumapa">
+                        <area shape="circle" coords="55,99,16" href="cities.html#indigo" target="janela" alt="Indigo Plateau">
+                        <area shape="circle" coords="139,132,16" href="cities.html#pewter" target="janela" alt="Pewter City">
+                        <area shape="circle" coords="135,262,16" href="cities.html#viridian" target="janela" alt="Viridian City">
+                        <area shape="circle" coords="139,355,16" href="cities.html#pallet" target="janela" alt="Pallet Town">
+                        <area shape="circle" coords="139,452,16" href="cities.html#cinnabar" target="janela" alt="Cinnabar Island">
+                        <area shape="circle" coords="542,100,16" href="cities.html#cerulean" target="janela" alt="Cerulean City">
+                        <area shape="circle" coords="542,197,16" href="cities.html#saffron" target="janela" alt="Saffron City">
+                        <area shape="circle" coords="542,292,16" href="cities.html#vermilion" target="janela" alt="Vermilion City">
+                        <area shape="circle" coords="418,197,16" href="cities.html#celadon" target="janela" alt="Celadon City">
+                        <area shape="circle" coords="698,197,16" href="cities.html#lavander" target="janela" alt="Lavander Town">
+                        <area shape="circle" coords="461,387,16" href="cities.html#fuchsia" target="janela" alt="Fuchsia City">
+                    </map>
+                    <iframe src="cities.html" frameborder="0" name="janela" id="frame-kanto"></iframe>
+                </section>
+
+            </article>
+        </section>
 
         <footer id="rodape">
             <p>Desenvolvido pelo fã - Marcelo Pereira <br>
