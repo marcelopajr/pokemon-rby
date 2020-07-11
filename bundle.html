@@ -7,7 +7,7 @@
     <title>Pokémon Red, Blue e Yellow</title>
     <link rel="shortcut icon" href="img/pokeball.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/starters.css">
+    <link rel="stylesheet" href="css/bundle.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
@@ -20,59 +20,42 @@
                 <h2>Relançamento marcou a comemoração aos 20 anos da franquia</h2>
             </hgroup>
 
-            <img id="icone" src="img/starters.png" alt="Imagem da pokebola">
+            <img id="icone" src="img/bundle.png" alt="Imagem da pokebola">
 
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul>
-                    <li onmouseover="mudaFoto('img/pokeball.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                    <li onmouseover="mudaFoto('img/pokeball.png')" onmouseout="mudaFoto('img/bundle.png')"><a
                             href="index.html">Home</a></li>
-                    <li onmouseover="mudaFoto('img/region.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                    <li onmouseover="mudaFoto('img/region.png')" onmouseout="mudaFoto('img/bundle.png')"><a
                             href="region.html">Região</a></li>
-                    <li onmouseover="mudaFoto('img/starters.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                    <li onmouseover="mudaFoto('img/starters.png')" onmouseout="mudaFoto('img/bundle.png')"><a
                             href="starters.html">Iniciais</a></li>
                     <li onmouseover="mudaFoto('img/bundle.png')" onmouseout="mudaFoto('img/bundle.png')"><a
                             href="bundle.html">Bundle</a></li>
-                    <li onmouseover="mudaFoto('img/order.png')" onmouseout="mudaFoto('img/starters.png')"><a
+                    <li onmouseover="mudaFoto('img/order.png')" onmouseout="mudaFoto('img/bundle.png')"><a
                             href="order.html">Pedidos</a></li>
                 </ul>
             </nav>
         </header>
 
         <section id="corpo-full">
-
             <article id="noticia-principal">
                 <header id="cabecalho-artigo">
                     <hgroup>
-                        <h3>Jogos > Iniciais</h3>
-                        <h1>Galeria de Imagens</h1>
-                        <h1>Escolha seu Inicial</h1>
+                        <h3>Jogos > Bundle</h3>
+                        <h1>Assista ao Trailer</h1>
                     </hgroup>
                 </header>
+
+                <div class="multimidia">
+                    <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/_iybdJCo78Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <audio id="trilha" src="media/opening.mp3" type="audio/mpeg" controls></audio>
+                </div>
+
             </article>
-
         </section>
-
-        <p>
-            Veja na nossa galeria de imagens que mostram algumas das principais características dos Pokémon Iniciais
-            presentes em Red, Blue e Yellow.
-        </p>
-        <p>
-            Esse será seu primeiro pokémon dentro do jogo, então escolha com sabedoria.
-        </p>
-
-        <ul id="iniciais">
-            <div id="rb">
-                <li id="foto01"><span>Bulbasaur</span></li>
-                <li id="foto02"><span>Charmander</span></li>
-                <li id="foto03"><span>Squirtle</span></li>
-            </div>
-
-            <div id="y">
-                <li id="foto04"><span>Pikachu</span></li>
-                <li id="foto05"><span>Eevee</span></li>
-            </div>
-        </ul>
 
         <footer id="rodape">
             <p>Desenvolvido pelo fã - Marcelo Pereira <br>

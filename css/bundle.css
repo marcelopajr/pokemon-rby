@@ -1,0 +1,16 @@
+iframe.trailer, audio#trilha {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+iframe.trailer {
+    width: 840px;
+    height: 473px;
+    border-radius: 20px;
+}
+
+audio#trilha {
+    width: 40vw;
+}
