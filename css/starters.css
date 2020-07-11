@@ -1,6 +1,7 @@
 ul#iniciais {
     width: 61%;
     margin: 0 auto;
+    margin-bottom: 15px;
     padding: 50px;
     overflow: hidden;
     list-style: none;
@@ -30,6 +31,10 @@ ul#iniciais li span {
     font-size: 9pt;
     line-height: 340px;
     padding: 5px;
+}
+
+ul#iniciais li span img.tipo {
+    vertical-align: text-bottom;
 }
 
 ul#iniciais li:hover {
@@ -94,4 +99,11 @@ ul#iniciais li#foto05 {
 
 ul#iniciais li#foto05:hover {
     background-size: 170px 170px;
+}
+
+div#rb, div#y {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
