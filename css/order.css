@@ -28,6 +28,10 @@ fieldset#sexo {
     width: 225px;
 }
 
+fieldset#cor {
+    width: 275px;
+}
+
 fieldset#usuario {
     background: url("../img/trainer.png") no-repeat 96% 92%;
 }

@@ -157,21 +157,25 @@
 
                     <fieldset id="pedido">
                         <legend>Quero um portátil com Pokémon Red, Blue ou Yellow</legend>
-                        <p><input type="checkbox" name="tPed" id="cPed" checked><label for=""> Gostaria de adquirir quando disponível</label></p>
-                        <p><label for="">Cor: </label>
-                            <input type="color" name="tCor" id="cR" value="#dd1c1a">
-                            <input type="color" name="tCor" id="cB" value="#07a0c3">
-                            <input type="color" name="tCor" id="cY" value="#f0c808">
-                        </p>
-                        <p><label for="cQtd">Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0" max="5"></p>
-                        <p><label for="cTot">Preço Total: R$ </label><input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly></p>
+                        <p><input type="checkbox" name="tPed" id="cPed" checked><label for=""> Gostaria de adquirir
+                                quando disponível</label></p>
+                        <fieldset id="cor">
+                            <legend>Cor</legend>
+                            <input type="radio" name="tCor" id="cRed"> <label for="cRed">Vermelho</label>
+                            <input type="radio" name="tCor" id="cBlue"> <label for="cBlue">Azul</label>
+                            <input type="radio" name="tCor" id="cYellow"> <label for="cYellow">Amarelo</label>
+                        </fieldset>
+                        <p><label for="cQtd">Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0"
+                                max="5"></p>
+                        <p><label for="cTot">Preço Total: R$ </label><input type="text" name="tTot" id="cTot"
+                                placeholder="Total a Pagar" readonly></p>
                     </fieldset>
 
                     <input id="botao" type="submit" name="tEnviar" value="Enviar">
                 </form>
 
                 <footer id="rodape">
-                    <p>Desenvolvido pelo fã - Marcelo Pereira <br>
+                    <p>Desenvolvido pelo fã - Marcelo Pereira<br>
                         <a href="https://github.com/marcelopajr" target="_blank">GitHub</a> | <a
                             href="https://www.linkedin.com/in/marcelopajr/" target="_blank">LinkedIn</a></p>
                 </footer>
@@ -183,7 +187,7 @@
     function calcTotal() {
         var qtd = parseInt(document.getElementById("cQtd").value)
         tot = qtd * 899.99
-        document.getElementById("cTot").value = tot.toFixed(2).replace(".",",")
+        document.getElementById("cTot").value = tot.toFixed(2).replace(".", ",")
     }
 </script>
 
